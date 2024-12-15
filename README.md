@@ -45,6 +45,6 @@ This task runs a local development server with live reload when changes are made
 gulp serve <br>
 The project will be available at http://localhost:3000. Gulp will watch for file changes and automatically reload the page when you make updates. <br>
 
-3. Run Both Build and Server (default) <br>
+Run Both Build and Server (default) <br>
 gulp
 
