@@ -1,7 +1,9 @@
 # Requirements
-Node.js (if not already installed, download and install the latest version)
-Git (if not already installed, download and install the latest version)
-Installation
+
+Node.js - (if not already installed, download and install the latest version)
+Git - (if not already installed, download and install the latest version)
+
+# Installation
 Clone the repository to your local machine:
 
 bash
