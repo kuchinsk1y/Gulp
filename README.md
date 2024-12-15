@@ -24,20 +24,20 @@ gulpfile.mjs — Gulp task configuration. <br>
 package.json — Project dependencies and scripts. <br>
 
 # Available Gulp Tasks
-1. Build the project (build) <br>
+Build the project (build) <br>
 This task runs all the necessary processes to compile the project. It performs the following tasks: <br>
 
-Compiles SCSS into CSS. <br>
-Minifies and concatenates JavaScript files. <br>
-Processes images. <br>
-Copies HTML files to the dist/ folder. <br>
+1. Compiles SCSS into CSS. <br>
+2. Minifies and concatenates JavaScript files. <br>
+3. Processes images. <br>
+4. Copies HTML files to the dist/ folder. <br>
 
 # Run the command:
 
 gulp build <br>
 After the task is completed, all the source files will be compiled and placed in the dist/ folder. <br>
 
-2. Run a local server with automatic reloading (serve) <br>
+Run a local server with automatic reloading (serve) <br>
 This task runs a local development server with live reload when changes are made to source files. <br>
 
 # Run the command:
