@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gulp Project</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-lg">
+          <div class="center-container">
+            <div class="left-text">
+              <a href="#menu" class="burger-link">
+                <span class="material-symbols-outlined burger-menu">menu</span>
+              </a>
+              <span class="material-symbols-outlined search-icon">search</span>
+              <span class="left-p">Type here to search</span>
+            </div>
+            <div class="logo">
+              <img src="/img/logo.png" alt="logo">
+            </div>
+            <div class="right-text">
+              <img class="email-icon" src="./img/vector-shop-black.png" alt="vector-shop-black">
+              <span>
+                <a href="#" data-bs-toggle="modal" data-bs-target="#loginModal">Login</a>
+              </span>
+              <span>Cart 0</span>
+            </div>
+          </div>
+        </div>
+        <hr>
+        <nav class="header_bottom-nav">
+          <ul>
+            <li><a href="#">What’s new</a></li>
+            <li><a href="#">Chokers</a></li>
+            <li><a href="#">Necklaces</a></li>
+            <li><a href="#">Rings</a></li>
+            <li><a href="#">Earrings</a></li>
+          </ul>
+        </nav>
+        <div id="menu" class="menu-overlay">
+          <div class="top-bar">
+            <a href="#" class="close-menu">
+              <span class="material-symbols-outlined">close</span>
+            </a>
+            <div class="logo">
+              <img src="./img/logo-menu.png" alt="logo-menu">
+            </div>
+            <img class="email-icon" src="./img/vector-shop.png" alt="vector-shop">
+          </div>
+          <div class="search-container">
+            <span class="material-symbols-outlined search-icon">search</span>
+            <input type="text" placeholder="Search...">
+          </div>
+          <div class="text-list">
+            <span class="text-list_main-links">What’s new</span>
+            <span class="text-list_main-links">Chokers</span>
+            <span class="text-list_main-links">Necklaces</span>
+            <span class="text-list_main-links">Rings</span>
+            <span class="text-list_main-links">Earrings</span>
+    
+            <span class="text-list_sub-links">About CH</span>
+            <span class="text-list_sub-links">Stores & Hours</span>
+            <span class="text-list_sub-links">Contact Us</span>
+    
+            <a href="#" class="text-list_login">Login</a>
+          </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+          <div class="container-lg">
+            <div class="hero-content">
+              <h1>PERFECTION</h1>
+              <p>made to be yours</p>
+            </div>
+          </div>
+        </section>
+    
+        <section class="title-cards-section">
+          <div class="container-lg">
+            <p>New In</p>
+            <div class="arrow-block">
+              <div>
+                <span class="material-symbols-outlined">west</span>
+              </div>
+              <div>
+                <span class="material-symbols-outlined">east</span>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="cards-block">
+          <div class="container-lg">
+            <a href="/all-jewellery.html" class="cards-block_title">Shop Now</a>
+    
+            <div class="cards-container">
+              <div class="card">
+                <img src="/img/purple-gemstone-necklace.png" alt="purple-gemstone-necklace">
+                <p>Necklace with amethyst</p>
+                <span>$ 145</span>
+              </div>
+              <div class="card">
+                <img src="/img/layered-choker-necklace.png" alt="layered-choker-necklace">
+                <p>Layered сhoker</p>
+                <span>$ 115</span>
+              </div>
+              <div class="card">
+                <img src="/img/dainty-gold-necklace.png" alt="dainty-gold-necklace">
+                <p>Gold chain</p>
+                <span>$ 215</span>
+              </div>
+              <div class="card">
+                <img src="/img/galaxy-earrings.png" alt="galaxy-earrings">
+                <p>Galaxy earrings</p>
+                <span>$ 95</span>
+              </div>
+            </div>
+    
+            <span class="count_under-cards"><b>1</b> 2 3</span>
+          </div>
+        </section>
+    
+        <section class="blog-section">
+          <div class="container-lg">
+            <p>Blog</p>
+            <p class="blog-section_title">Read All</p>
+    
+            <div class="blocks-container_first">
+              <div class="full-width-block">
+                <div class="image-container">
+                  <img src="/img/jess-harper-sunday.png" alt="jess-harper-sunday">
+                </div>
+                <div class="text-container">
+                  <p class="secondary-text">September 30, 2019</p>
+                  <p class="main-text">How to care for <br> your jewellery</p>
+                  <p class="tertiary-text">Read Article</p>
+                </div>
+              </div>
+    
+              <div class="full-width-block">
+                <div class="text-container">
+                  <p class="secondary-text">September 23, 2019</p>
+                  <p class="main-text">Power of crystals </p>
+                  <p class="tertiary-text">Read Article</p>
+                </div>
+                <div class="image-container">
+                  <img src="/img/alex-holyoake.png" alt="alex-holyoake">
+                </div>
+              </div>
+    
+              <div class="full-width-block">
+                <div class="image-container">
+                  <img src="/img/alve-odonnell.png" alt="alve-odonnell.png">
+                </div>
+                <div class="text-container">
+                  <p class="secondary-text">September 16, 2019</p>
+                  <p class="main-text">AW 19 trends</p>
+                  <p class="tertiary-text">Read Article</p>
+                </div>
+              </div>
+            </div>
+    
+            <div class="blocks-container">
+              <div class="left-blocks">
+                <div class="left-block">
+                  <div class="image-container">
+                    <img src="/img/jess-harper-sunday.png" alt="jess-harper-sunday">
+                  </div>
+                  <div class="text-container">
+                    <p class="secondary-text">September 30, 2019</p>
+                    <p class="main-text">How to care for <br> your jewellery</p>
+                    <p class="tertiary-text">Read Article</p>
+                  </div>
+                </div>
+                <div class="left-block reverse">
+                  <div class="text-container">
+                    <p class="secondary-text">September 23, 2019</p>
+                    <p class="main-text">Power of crystals </p>
+                    <p class="tertiary-text">Read Article</p>
+                  </div>
+                  <div class="image-container">
+                    <img src="/img/alex-holyoake.png" alt="alex-holyoake">
+                  </div>
+                </div>
+              </div>
+              <div class="right-block">
+                <div class="image-container">
+                  <img src="/img/alve-odonnell.png" alt="alve-odonnell">
+                  <div class="text-overlay">
+                    <p class="secondary-text">September 16, 2019</p>
+                    <p class="main-text">AW 19 trends</p>
+                    <p class="tertiary-text">Read Article</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    
+        <section class="asked-section">
+          <div class="container-lg">
+            <p class="asked-section_title">Frequently asked questions</p>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    What materials are the jewellery made of?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Our jewellerry is made of solid gold, silver or leather. Also, some jewellery contains precious and
+                    semiprecious stones and crystals.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Which countries do you deliver to?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being
+                    filled with some actual content.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    What are the payment methods?
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the space to make it look, at least at first
+                    glance, a bit more representative of how this would look in a real-world application.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#flush-collapseFourth" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Can I return the jewellery if it didn’t fit me?
+                  </button>
+                </h2>
+                <div id="flush-collapseFourth" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the
+                    <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting
+                    happening here in terms of content, but just filling up the space to make it look, at least at first
+                    glance, a bit more representative of how this would look in a real-world application.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    
+    <footer>
+    <div class="container-lg">
+        <div class="footer-content">
+        <div class="left-section">
+            <div class="text-section">
+            <span class="main-text">The good stuff in your inbox</span>
+            <br>
+            <span class="sub-text">News and updates from CH. No spam, we promise.</span>
+            </div>
+            <div class="email-signup">
+            <div class="input-container">
+                <input type="email" placeholder="Your E-mail">
+                <button type="submit">
+                <span class="sign-up">Sign Up</span> <span class="arrow">→</span>
+                </button>
+            </div>
+            </div>
+        </div>
+        <div class="right-section">
+            <div class="footer-block">
+            <p>Ordering & Payment</p>
+            <p>Terms & Conditions</p>
+            <p>Returns & Exchanges</p>
+            <p>Delivery</p>
+            </div>
+
+            <div class="footer-block">
+            <p>About CH</p>
+            <p>Stores & Hours</p>
+            <p>Jobs</p>
+            <p>Contact Us</p>
+            </div>
+
+            <div class="footer-block">
+            <div class="footer-block_links">
+                <p><img src="/img/facebook.png" alt="facebook"> <span class="links"> Facebook</span></p>
+                <p><img src="/img/instagram.png" alt="instagram"> <span class="links">Instagram</span></p>
+                <p><img src="/img/pinterest.png" alt="pinterest"><span class="links">Pinterest</span></p>
+                <p><img src="/img/twitter.png" alt="twitter"><span class="links">Twitter</span></p>
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+    </footer>
+    
+    
+    <!-- ============================================== MODAL ============================================== -->
+    <div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="parent-container">
+                <div class="form-container">
+                  <button type="button" class="btn-close close-icon" data-bs-dismiss="modal" aria-label="Close"></button>
+                  <div class="image-container">
+                    <img src="/img/sweet-ice-cream-photography.png" alt="sweet-ice-cream-photography" class="top-image">
+                  </div>
+                  <div class="form-content">
+                    <h1 class="form-title">Log In</h1>
+                    <div class="form-inputs">
+                      <input type="email" placeholder="Your E-mail" class="form-input">
+                      <input type="password" placeholder="Password" class="form-input">
+                      <div class="forgot-container">
+                        <a href="#" class="forgot-password">Forgot your password?</a>
+                      </div>
+                      <button type="button" class="login-button">Log in</button>
+                      <div class="signup-container">
+                        <span class="signup-text">Don’t have an account? </span>
+                        <a href="#" class="signup-link">Sign up</a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
