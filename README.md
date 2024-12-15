@@ -1,4 +1,4 @@
-#Requirements
+# Requirements
 Node.js (if not already installed, download and install the latest version)
 Git (if not already installed, download and install the latest version)
 Installation
