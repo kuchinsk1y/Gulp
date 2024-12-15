@@ -14,7 +14,7 @@ git clone https://github.com/username/repository-name.git <br>
 cd repository-name <br>
 
 Install all dependencies using npm: <br>
-npm install <br>
+<pre> ``` npm install ``` </pre> <br>
 This command will install all the dependencies listed in the package.json file. <br>
 
 # Project Structure
@@ -34,7 +34,7 @@ This task runs all the necessary processes to compile the project. It performs t
 
 # Run the command:
 
-gulp build <br>
+<pre> ``` gulp build ``` </pre> <br>
 After the task is completed, all the source files will be compiled and placed in the dist/ folder. <br>
 
 Run a local server with automatic reloading (serve) <br>
@@ -42,9 +42,9 @@ This task runs a local development server with live reload when changes are made
 
 # Run the command:
 
-gulp serve <br>
+<pre> ``` gulp serve ``` </pre> <br>
 The project will be available at http://localhost:3000. Gulp will watch for file changes and automatically reload the page when you make updates. <br>
 
 Run Both Build and Server (default) <br>
-gulp
+<pre> ``` gulp ``` </pre>
 
